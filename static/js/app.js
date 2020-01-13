@@ -99,11 +99,9 @@ chart.on('click', function (params) {
 
 //初始化绘制全国地图配置
 var option = {
-	backgroundColor: '#000',
     title : {
         text: 'Echarts3 中国地图下钻至县级',
         subtext: '三级下钻',
-        link:'http://www.ldsun.com',
         left: 'center',
         textStyle:{
             color: '#fff',
